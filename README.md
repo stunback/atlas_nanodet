@@ -39,6 +39,7 @@ https://github.com/RangiLyu/nanodet.git
 So I just test the model inference time without pre and post process,  
 
 **nanodet_s(320)**    
+<<<<<<< HEAD
 onnx=170.5ms      
 cann=8.5ms     
 
@@ -49,3 +50,11 @@ cann=11.0ms
 ## More About
 My Blog:    
 https://blog.csdn.net/qq_41035283/article/details/119150751   
+=======
+onnx=170.5ms          
+cann=8.5ms     
+
+**nanodet_m(416)**   
+onnx=280.0ms          
+cann=11.0ms     
+>>>>>>> d25c9ba7e4442fa7ef62ed6d0a97ba510853f4c6
